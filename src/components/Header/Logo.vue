@@ -8,6 +8,12 @@
 
 <script setup>
 
+defineProps({
+  isBlack: {
+    type: Boolean,
+    default: false
+  }
+})
 </script>
 
 <style scoped>

@@ -29,8 +29,6 @@
     background-position: center center;
     background-size: cover;
     background-attachment: fixed; 
-    height: 100vh;
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -56,5 +54,6 @@
     font-size: 18px;
     line-height: 21px;
     text-decoration: underline;
+    padding-bottom: 130px;
 }
 </style>
