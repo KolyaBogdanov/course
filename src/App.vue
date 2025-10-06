@@ -1,12 +1,14 @@
 <template>
     <Header />
     <Content />
+	<Navigation />
 </template>
 
 <script setup>
 
 import Header from './components/Header/Header.vue'
 import Content from './components/Content/Content.vue'
+import Navigation from './components/Content/Navigation/Navigation.vue';
 
 </script>
 
