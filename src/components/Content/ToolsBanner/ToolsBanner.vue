@@ -22,13 +22,22 @@ import ToolsBannerCards from './ToolsBannerCards.vue';
 .tools-banner {
     background-color: rgb(204, 204, 204); 
     padding: 45px 40px 45px 40px;  
-    
-
 }
+
 .tools-banner_wrap {
     display: flex;
     justify-content: space-between;
-    
-    
+}
+
+@media (max-width: 768px) {
+    .tools-banner {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tools-banner {
+        padding: 20px 15px;
+    }
 }
 </style>
