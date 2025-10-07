@@ -20,8 +20,8 @@ import MembershipBannerTitle from './MemberHero.vue';
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-attachment: fixed; /* Опционально */
-    height: 100vh;
+    background-attachment: fixed; 
     width: 100%;
 }
+
 </style>
