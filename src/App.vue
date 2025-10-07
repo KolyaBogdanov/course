@@ -24,10 +24,14 @@ import Content from './components/Content/Content.vue'
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-/* Links */
+#app {
+    width: 100%;
+    overflow-x: hidden; 
+    position: relative;
+}
 
 a, a:link, a:visited  {
     text-decoration: none;
@@ -37,45 +41,43 @@ a:hover  {
     text-decoration: none;
 }
 
-/* Common */
-
 aside, nav, footer, header, section, main {
-	display: block;
+    display: block;
 }
 
 h1, h2, h3, h4, h5, h6, p {
     font-size: inherit;
-	font-weight: inherit;
+    font-weight: inherit;
 }
 
 ul, ul li {
-	list-style: none;
+    list-style: none;
 }
 
 img {
-	vertical-align: top;
+    vertical-align: top;
+    max-width: 100%; 
+    height: auto;
 }
 
 img, svg {
-	max-width: 100%;
-	height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 address {
-  font-style: normal;
+    font-style: normal;
 }
 
-/* Form */
-
 input, textarea, button, select {
-	font-family: inherit;
+    font-family: inherit;
     font-size: inherit;
     color: inherit;
     background-color: transparent;
 }
 
 input::-ms-clear {
-	display: none;
+    display: none;
 }
 
 button, input[type="submit"] {
@@ -84,19 +86,19 @@ button, input[type="submit"] {
     background-color: transparent;
     background: none;
     cursor: pointer;
-	border: none;
-	margin: 0;
-	padding: 0;
-	width: auto;
-	overflow: visible;
-	background: transparent;
-	color: inherit;
-	font: inherit;
-	line-height: normal;
-	cursor: pointer;
-	-webkit-font-smoothing: inherit;
-	-moz-osx-font-smoothing: inherit;
-	text-transform: inherit;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    line-height: normal;
+    cursor: pointer;
+    -webkit-font-smoothing: inherit;
+    -moz-osx-font-smoothing: inherit;
+    text-transform: inherit;
 }
 
 input:focus, input:active,
@@ -105,19 +107,38 @@ button:focus, button:active {
 }
 
 button::-moz-focus-inner {
-	padding: 0;
-	border: 0;
+    padding: 0;
+    border: 0;
 }
 
 label {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 legend {
-	display: block;
+    display: block;
 }
 
 input[type='file'] {
-	max-width: 100%;
+    max-width: 100%;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.container, .wrapper, .section {
+    max-width: 100%;
+}
+
+.flex-container {
+    flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+    #app {
+        min-width: 320px; 
+    }
 }
 </style>
