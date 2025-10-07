@@ -134,8 +134,32 @@ const navigations = ref([
 }
 
 .card-wrapp__img {
-    min-width: 660px;
-    max-height: 413px;
+    flex: 1;
+    max-width: 50%; 
+    min-width: 300px; 
+}
+
+.card__img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; 
+}
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column !important; 
+        text-align: center;
+        padding: 0 20px 60px 20px;
+    }
+    
+    .card-wrapp__img {
+        max-width: 100%;
+        min-width: auto;
+    }
+    
+    .card_description__subtitle {
+        width: 100%;
+    }
 }
 
 

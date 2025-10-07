@@ -29,4 +29,43 @@
     padding-top: 20px;
 }
 
+@media (max-width: 1024px) {
+    .tools-banner__title {
+        font-size: 48px;
+        line-height: 48px;
+    }
+    
+    .tools-banner__description {
+        font-size: 20px;
+        line-height: 24px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .tools-banner__title {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    
+    .tools-banner__description {
+        font-size: 18px;
+        line-height: 22px;
+        width: 90%;
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tools-banner__title {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    
+    .tools-banner__description {
+        font-size: 16px;
+        line-height: 20px;
+        width: 95%;
+    }
+}
 </style>

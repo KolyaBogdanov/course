@@ -24,7 +24,38 @@ import HeaderBtn from './HeaderBtn.vue';
 .categories {
     text-decoration: none;
     color: white;
+}
+
+@media (max-width: 1024px) {
+    .header_buttons {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header_buttons {
+        gap: 20px;
+    }
     
+    .categories {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    .header_buttons {
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header_buttons {
+        gap: 10px;
+    }
+    
+    .categories {
+        font-size: 13px;
+    }
 }
 
 </style>
