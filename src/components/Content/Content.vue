@@ -4,6 +4,7 @@
     <ImagineBanner />
     <Navigation />
     <Templates />
+    <MemberAreas />
 </template>
 
 <script setup>
@@ -12,6 +13,7 @@ import ToolsBanner from './ToolsBanner/ToolsBanner.vue';
 import ImagineBanner from './ImagineBanner/ImagineBanner.vue';
 import Navigation from './Navigation/Navigation.vue';
 import Templates from './Templates /Templates.vue';
+import MemberAreas from './MemberAreas/MemberAreas.vue';
 
 </script>
 

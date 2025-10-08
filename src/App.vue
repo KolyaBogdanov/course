@@ -18,7 +18,7 @@ import Content from './components/Content/Content.vue'
     border: none;
     font-family: Roboto, sans-serif;
     font-weight: 400;
-    line-height: 14px;
+    line-height: 1.4;
 }
 
 *,
@@ -31,6 +31,7 @@ import Content from './components/Content/Content.vue'
     width: 100%;
     overflow-x: hidden; 
     position: relative;
+    min-height: 100vh;
 }
 
 a, a:link, a:visited  {
@@ -126,6 +127,7 @@ input[type='file'] {
 html, body {
     max-width: 100%;
     overflow-x: hidden;
+    height: 100%;
 }
 
 .container, .wrapper, .section {
