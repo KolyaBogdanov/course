@@ -5,6 +5,7 @@
     <Navigation />
     <Templates />
     <MemberAreas />
+    <PricingPlans />
 </template>
 
 <script setup>
@@ -14,6 +15,7 @@ import ImagineBanner from './ImagineBanner/ImagineBanner.vue';
 import Navigation from './Navigation/Navigation.vue';
 import Templates from './Templates /Templates.vue';
 import MemberAreas from './MemberAreas/MemberAreas.vue';
+import PricingPlans from './PricingPlans/PricingPlans.vue';
 
 </script>
 
